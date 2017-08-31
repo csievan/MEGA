@@ -1,4 +1,4 @@
-<<<<<<< Original<<<<<<< Original<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest
+<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest
 xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.weitan.mega">
 
 <!-- To auto-complete the email text field in the login form with the user's emails -->
@@ -39,5 +39,12 @@ xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.
 
 <application>
     <activity android:name="com.example.weitan.mega.activity.Profile"></activity>
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.example.weitan.mega.activity.signUp2"></activity>
 </application>
 </manifest>>>>>>>> Added

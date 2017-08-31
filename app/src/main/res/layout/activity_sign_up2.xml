@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.weitan.mega.activity.signUp2">
+
+    <EditText
+        android:id="@+id/AgeNo"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="112dp"
+        android:layout_marginLeft="33dp"
+        android:background="@drawable/border_green"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/HeightNo"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="105dp"
+        android:layout_marginLeft="151dp"
+        android:background="@drawable/border_green"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/WeightNo"
+        android:layout_width="83dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="112dp"
+        android:layout_marginLeft="265dp"
+        android:background="@drawable/border_green"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="5dp"
+        android:paddingBottom="5dp"
+        android:paddingEnd="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>
