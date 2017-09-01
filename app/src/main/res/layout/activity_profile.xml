@@ -37,6 +37,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="USERNAME"
+        android:drawableLeft="@drawable/user-logo 3"
+        android:drawableStart="@drawable/user-logo 3"
         android:background="@android:color/transparent"
         android:textAlignment="center"
         android:inputType="textEmailAddress"
@@ -187,16 +189,6 @@
         android:layout_marginBottom="16dp"
         android:layout_marginLeft="152dp"
         app:layout_constraintLeft_toLeftOf="parent" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="B"
-        android:layout_marginLeft="230dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginBottom="45dp" />
 
 
 </android.support.constraint.ConstraintLayout>
