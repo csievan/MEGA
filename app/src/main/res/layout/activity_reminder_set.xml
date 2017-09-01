@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.weitan.mega.activity.ReminderSet">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/ExReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:text="Exercise reminder"
+        android:textColor="#9c9c9c"
+        android:textSize="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="141dp"
+        android:layout_marginLeft="43dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/ExWeekReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weekly reminder"
+        android:textSize="20dp"
+        android:textColor="#9c9c9c"
+        android:layout_marginTop="19dp"
+        app:layout_constraintTop_toBottomOf="@+id/ExReminder"
+        android:layout_marginLeft="43dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/ExMonthReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:text="Monthly reminder"
+        android:textColor="#9c9c9c"
+        android:textSize="20dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/ExWeekReminder"
+        android:layout_marginLeft="43dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/CREATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="#263b59"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="152dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="141dp"
+        android:layout_marginLeft="313dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="313dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="19dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton1" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="313dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="19dp"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
+
+
+</android.support.constraint.ConstraintLayout>

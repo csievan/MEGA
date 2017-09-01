@@ -1,4 +1,5 @@
-<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<?xml version="1.0" encoding="utf-8"?><manifest
+<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<< Original<<<<<<<
+Original<?xml version="1.0" encoding="utf-8"?><manifest
 xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.weitan.mega">
 
 <!-- To auto-complete the email text field in the login form with the user's emails -->
@@ -59,5 +60,34 @@ xmlns:android="http://schemas.android.com/apk/res/android" package="com.example.
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.example.weitan.mega.activity.schedulePlan"></activity>
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.example.weitan.mega.activity.ReminderSet"></activity>
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.example.weitan.mega.activity.Video_demo" android:label="@string/title_activity_video_demo"
+        android:theme="@style/AppTheme.NoActionBar"></activity>
+</application>
+</manifest>>>>>>>> Added
+
+    =======<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<application>
+    <activity android:name="com.example.weitan.mega.activity.ExerciseResult"></activity>
 </application>
 </manifest>>>>>>>> Added
